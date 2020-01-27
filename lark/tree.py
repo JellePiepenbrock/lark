@@ -139,7 +139,7 @@ class Tree(object):
 
 
 class SlottedTree(Tree):
-    __slots__ = 'data', 'children', 'rule', '_meta', 'parent'
+    __slots__ = 'data', 'children', 'rule', '_meta', 'parent', 'cursor'
 
 
 def pydot__tree_to_png(tree, filename, rankdir="LR", **kwargs):
